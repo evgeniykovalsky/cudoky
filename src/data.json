@@ -3,12 +3,12 @@
     "id":1,
     "width":3,
     "height":3,
-    "classCss":".root"},
+    "classCss":"root"},
     {
     "id":2,
     "width":4,
     "height":4,
-    "classCss":".root1"
+    "classCss":"root1"
 
     }]
 }

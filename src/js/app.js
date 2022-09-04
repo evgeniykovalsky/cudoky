@@ -1,8 +1,13 @@
 import * as flsFunctions from "./modules/functions.js";
-//flsFunctions.isWebp();
+import level from '../data.json';
+
 
 import Swiper, { Navigation, Pagination } from 'swiper';
 
 const swiper=new Swiper();
-flsFunctions.createGameField(4,4);
-console.log(swiper);
+
+
+//console.log(flsFunctions.bool);
+
+
+
