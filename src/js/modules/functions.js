@@ -18,13 +18,14 @@ export function isWebp(){
 }
 
 export let bool=false;
-let level=1;
+let level=0;
 
 export function createGameField(lev){
         
     let root=document.querySelector('#root');
     let sumPictures=document.querySelector('.somePictures');
     let sumPictures1=document.querySelector('.somePictures1');
+    
     if(level==0){
         sumPictures.classList.remove("hide");}
     else{
